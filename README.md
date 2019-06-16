@@ -22,7 +22,9 @@ javac -d mods --module-version 1.0
 ``` 
 
 `-d` flag specifies the compiled files output directory;
+
 `--module-source-path` flag specifies the root directory for modules;
+
 `--module-version` flag specifies the module version;
 last 2 arguments specifies the path to module-info file and class that should be compiled.
 
