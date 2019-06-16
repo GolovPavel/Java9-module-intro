@@ -5,7 +5,9 @@ Simple example how to create java 9 module, compile, pack and run it.
 ## Project structure
 
 `./src` - directory for the module source code;
+
 `./mods` - directory for the module compiled code;
+
 `./lib` - directory for the module jar file. 
 
 ## Compile project
@@ -37,7 +39,9 @@ jar --create
 ```
 
 `--file` flag specifies the name of the jar file;
+
 `-C` flag specifies the root catalog for jar command;
+
 `.` specifies that all files from `-C` catalog should be included in jar file.
 
 To check information about created jar module file type:
